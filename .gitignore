@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Processed data & artifacts
+1_DataPipeline/processed/
+*.pkl
+*.joblib
+
+# Logs
+logs/
+*.log
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+de.jpg
